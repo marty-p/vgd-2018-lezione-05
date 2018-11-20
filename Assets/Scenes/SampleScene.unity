@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657856, g: 0.49641234, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -265,7 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658963364}
   m_Layer: 0
-  m_Name: Spawn
+  m_Name: BulletSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   jumpSpeed: 10
   gravity: 9.81
   pushPower: 1
-  bullet: {fileID: 1850851549023470, guid: b4e7bfd41da4c493491cbb971bf990e7, type: 2}
+  bullet: {fileID: 1143181030750266, guid: ce4f352cf21154d428a200a0678b5110, type: 2}
   spawn: {fileID: 658963364}
   cooldownTime: 0.5
 --- !u!143 &813389942
